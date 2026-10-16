@@ -1,0 +1,33 @@
+
+# Ignore all Python virtual environments
+/.venv/
+/**/.venv/
+/venv/
+/**/venv/
+/env/
+/**/env/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# Python virtual environments
+**/.venv/
+**/venv/
+**/env/
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+**/.env
+!.env.example
+
+# Generated files
+*.log
